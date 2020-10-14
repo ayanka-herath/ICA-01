@@ -1,0 +1,52 @@
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\ApplicationInsights.config
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\roslyn\csc.exe
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\roslyn\System.Collections.Immutable.dll
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\roslyn\System.Reflection.Metadata.dll
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\roslyn\vbc.exe
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\roslyn\VBCSCompiler.exe
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\roslyn\VBCSCompiler.exe.config
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\ICA-01 2015ICT36.dll.config
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\ICA-01 2015ICT36.dll
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\ICA-01 2015ICT36.pdb
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\EntityFramework.dll
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\EntityFramework.SqlServer.dll
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\Microsoft.AI.DependencyCollector.dll
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\Microsoft.AI.Web.dll
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\Microsoft.AI.WindowsServer.dll
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\Microsoft.ApplicationInsights.dll
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\Microsoft.Web.Infrastructure.dll
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\System.Web.Helpers.dll
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\System.Web.Mvc.dll
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\System.Web.Razor.dll
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\System.Web.Webpages.Deployment.dll
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\System.Web.Webpages.dll
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\System.Web.Webpages.Razor.dll
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\EntityFramework.xml
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\EntityFramework.SqlServer.xml
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\Microsoft.AI.DependencyCollector.xml
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\Microsoft.AI.Web.xml
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\Microsoft.AI.WindowsServer.xml
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\Microsoft.ApplicationInsights.xml
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\System.Web.Razor.xml
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\System.Web.Webpages.xml
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\System.Web.Webpages.Deployment.xml
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\System.Web.Webpages.Razor.xml
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\System.Web.Helpers.xml
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\bin\System.Web.Mvc.xml
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\obj\Debug\ICA-01 2015ICT36.csprojResolveAssemblyReference.cache
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\obj\Debug\ICA-01 2015ICT36.dll
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\obj\Debug\ICA-01 2015ICT36.pdb
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\obj\Debug\ICA_01_2015ICT36.Migrations.companydb.resources
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\obj\Debug\ICA-01 2015ICT36.csproj.GenerateResource.Cache
