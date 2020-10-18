@@ -13,7 +13,7 @@ namespace ICA_01_2015ICT36.Controllers
         private CompanyContext companycontext = new CompanyContext();
         public ActionResult Index()
         {
-            List<Branch_tbl> AllBranches = companycontext.Branch.ToList();
+            List<Branch> AllBranches = companycontext.Branches.ToList();
             return View(AllBranches);
         }
 
@@ -22,28 +22,28 @@ namespace ICA_01_2015ICT36.Controllers
              return View();
         }
         [HttpPost]
-        public ActionResult Create(Branch_tbl branch)
+        public ActionResult Create(Branch branch)
         {
            
-            companycontext.Branch.Add(branch);
+            companycontext.Branches.Add(branch);
             companycontext.SaveChanges();
             return RedirectToAction("Index");
         }
         public ActionResult Details(String id)
         {
-            Branch_tbl branch = companycontext.Branch.SingleOrDefault(x => x.BranchNo == id);
+            Branch branch = companycontext.Branches.SingleOrDefault(x => x.BranchNo == id);
             return View(branch);
         }
         public ActionResult Edit(String id)
         {
-            Branch_tbl branch = companycontext.Branch.SingleOrDefault(x => x.BranchNo == id);
+            Branch branch = companycontext.Branches.SingleOrDefault(x => x.BranchNo == id);
             return View(branch);
         }
         [HttpPost]
-        public ActionResult Edit(String id,Branch_tbl updatedBranch)
+        public ActionResult Edit(String id,Branch updatedBranch)
         {
 
-            Branch_tbl branch = companycontext.Branch.SingleOrDefault(x => x.BranchNo == id);
+            Branch branch = companycontext.Branches.SingleOrDefault(x => x.BranchNo == id);
             branch.BranchNo = updatedBranch.BranchNo;
             branch.City = updatedBranch.City;
             branch.Street = updatedBranch.Street;
@@ -53,15 +53,15 @@ namespace ICA_01_2015ICT36.Controllers
         }
         public ActionResult Delete(String id)
         {
-            Branch_tbl branch = companycontext.Branch.SingleOrDefault(x => x.BranchNo == id);
+            Branch branch = companycontext.Branches.SingleOrDefault(x => x.BranchNo == id);
             return View(branch);
         }
         [HttpPost,ActionName("Delete")]
         public ActionResult DeleteBranch(String id)
         {
 
-            Branch_tbl branch = companycontext.Branch.SingleOrDefault(x => x.BranchNo == id);
-            companycontext.Branch.Remove(branch);
+            Branch branch = companycontext.Branches.SingleOrDefault(x => x.BranchNo == id);
+            companycontext.Branches.Remove(branch);
             companycontext.SaveChanges();
             return RedirectToAction("Index");
         }

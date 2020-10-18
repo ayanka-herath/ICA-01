@@ -126,9 +126,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\Database1.mdf" />
-    <Content Include="App_Data\Database1_log.ldf">
-      <DependentUpon>Database1.mdf</DependentUpon>
+    <Content Include="App_Data\Database2.mdf" />
+    <Content Include="App_Data\Database2_log.ldf">
+      <DependentUpon>Database2.mdf</DependentUpon>
     </Content>
     <Content Include="Global.asax" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
@@ -139,19 +139,22 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\BranchController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\OwnerController.cs" />
+    <Compile Include="Controllers\RentController.cs" />
+    <Compile Include="Controllers\StaffController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202010141641384_companydb.cs" />
-    <Compile Include="Migrations\202010141641384_companydb.designer.cs">
-      <DependentUpon>202010141641384_companydb.cs</DependentUpon>
+    <Compile Include="Migrations\202010170506046_company.cs" />
+    <Compile Include="Migrations\202010170506046_company.Designer.cs">
+      <DependentUpon>202010170506046_company.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Models\Branch_tbl.cs" />
+    <Compile Include="Models\Branch.cs" />
     <Compile Include="Models\CompanyContext.cs" />
-    <Compile Include="Models\Owner_tbl.cs" />
-    <Compile Include="Models\Rent_tbl.cs" />
-    <Compile Include="Models\Staff_tbl.cs" />
+    <Compile Include="Models\Owner.cs" />
+    <Compile Include="Models\Rent.cs" />
+    <Compile Include="Models\Staff.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -165,6 +168,21 @@
     <Content Include="Views\Branch\Edit.cshtml" />
     <Content Include="Views\Branch\Details.cshtml" />
     <Content Include="Views\Branch\Delete.cshtml" />
+    <Content Include="Views\Staff\Create.cshtml" />
+    <Content Include="Views\Staff\Index.cshtml" />
+    <Content Include="Views\Staff\Details.cshtml" />
+    <Content Include="Views\Staff\Edit.cshtml" />
+    <Content Include="Views\Staff\Delete.cshtml" />
+    <Content Include="Views\Owner\Index.cshtml" />
+    <Content Include="Views\Owner\Create.cshtml" />
+    <Content Include="Views\Owner\Details.cshtml" />
+    <Content Include="Views\Owner\Edit.cshtml" />
+    <Content Include="Views\Owner\Delete.cshtml" />
+    <Content Include="Views\Rent\Index.cshtml" />
+    <Content Include="Views\Rent\Create.cshtml" />
+    <Content Include="Views\Rent\Details.cshtml" />
+    <Content Include="Views\Rent\Edit.cshtml" />
+    <Content Include="Views\Rent\Delete.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -176,8 +194,8 @@
     <Folder Include="Views\Home\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202010141641384_companydb.resx">
-      <DependentUpon>202010141641384_companydb.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202010170506046_company.resx">
+      <DependentUpon>202010170506046_company.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

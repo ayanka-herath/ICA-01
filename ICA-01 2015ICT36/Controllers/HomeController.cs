@@ -13,8 +13,24 @@ namespace ICA_01_2015ICT36.Controllers
         private CompanyContext companycontext = new CompanyContext();
         public ActionResult Index()
         {
-            List<Branch_tbl> AllBranches = companycontext.Branch.ToList();
-            return View();
+            List<Branch> AllBranches = companycontext.Branches.ToList();
+            return View(AllBranches);
+        }
+        public ActionResult Staff_details()
+        {
+            List<Staff> AllStaff = companycontext.Staffs.ToList();
+            return View(AllStaff);
+        }
+
+        public ActionResult Owner_details()
+        {
+            List<Owner> AllOwners = companycontext.Owners.ToList();
+            return View(AllOwners);
+        }
+        public ActionResult Rent_details()
+        {
+            List<Rent> Allrents = companycontext.Rents.ToList();
+            return View(Allrents);
         }
     }
 }

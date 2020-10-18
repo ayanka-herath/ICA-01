@@ -48,5 +48,5 @@ E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\I
 E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\obj\Debug\ICA-01 2015ICT36.csprojResolveAssemblyReference.cache
 E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\obj\Debug\ICA-01 2015ICT36.dll
 E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\obj\Debug\ICA-01 2015ICT36.pdb
-E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\obj\Debug\ICA_01_2015ICT36.Migrations.companydb.resources
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\obj\Debug\ICA_01_2015ICT36.Migrations.company.resources
 E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\obj\Debug\ICA-01 2015ICT36.csproj.GenerateResource.Cache

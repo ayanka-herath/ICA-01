@@ -1,0 +1,70 @@
+﻿@model ICA_01_2015ICT36.Models.Staff
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        <h4>Staff</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            
+    
+            
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Lname)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Lname)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Fname)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Fname)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Possition)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Possition)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.DOB)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.DOB)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Salary)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Salary)
+            </dd>
+    
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.StaffNo }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>
