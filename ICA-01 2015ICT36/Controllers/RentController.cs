@@ -58,9 +58,9 @@ namespace ICA_01_2015ICT36.Controllers
             rents.Ptype = updatedRent.Ptype;
             rents.Rooms = updatedRent.Rooms;
             rents.rent = updatedRent.rent;
+            rents.StaffNo_Ref = updatedRent.StaffNo_Ref;
             rents.BranchNo_Ref = updatedRent.BranchNo_Ref;
             rents.Owner_Ref = updatedRent.Owner_Ref;
-            rents.StaffNo_Ref = updatedRent.StaffNo_Ref;
             companycontext.SaveChanges();
             return RedirectToAction("Index");
 
