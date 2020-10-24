@@ -50,3 +50,7 @@ E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\I
 E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\obj\Debug\ICA-01 2015ICT36.pdb
 E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\obj\Debug\ICA_01_2015ICT36.Migrations.company.resources
 E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\obj\Debug\ICA-01 2015ICT36.csproj.GenerateResource.Cache
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\obj\Debug\ICA_01_2015ICT36.Migrations.updatestaff.resources
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\obj\Debug\ICA_01_2015ICT36.Migrations.updatedname.resources
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\obj\Debug\ICA_01_2015ICT36.Migrations.updatedDOB.resources
+E:\Forth Year\1st Semester\ICT4191 - Practical for E-commerce\ICA-01 2015ICT36\ICA-01 2015ICT36\obj\Debug\ICA_01_2015ICT36.Migrations.updatenamestaff.resources

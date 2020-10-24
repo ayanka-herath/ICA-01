@@ -1,0 +1,26 @@
+﻿@model IEnumerable<ICA_01_2015ICT36.Models.Staff>
+@using ICA_01_2015ICT36.Models;
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Get_Staff</title>
+</head>
+<body>
+    <div> 
+        <h1>Possitions</h1>
+        @{
+            foreach (string i in ViewBag.possitiondetails)
+            {
+               <h2>@Html.ActionLink(i, "Get_Staff1",new { possiton_det = i } ) </h2>
+            }
+
+        }
+    </div>
+</body>
+</html>

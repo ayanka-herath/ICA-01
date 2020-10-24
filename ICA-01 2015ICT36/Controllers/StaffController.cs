@@ -10,7 +10,7 @@ namespace ICA_01_2015ICT36.Controllers
     public class StaffController : Controller
     {
         // GET: Staff
-        private CompanyContext companycontext = new CompanyContext();
+        private companycontext companycontext = new companycontext();
         public ActionResult Index()
         {
             List<Staff> AllStaff = companycontext.Staffs.ToList();
@@ -69,6 +69,36 @@ namespace ICA_01_2015ICT36.Controllers
             companycontext.Staffs.Remove(staff);
             companycontext.SaveChanges();
             return RedirectToAction("Index");
+        }
+
+        public ActionResult Get_Staff()
+        {
+            var Allstaff = companycontext.Staffs.ToList();
+
+            int i = 0;
+            int j = 0;
+
+            foreach (Staff staff in Allstaff)
+            {
+                i = i + 1;
+            }
+
+            string[] possition = new string[i];
+            foreach (Staff staff in Allstaff)
+            {
+                possition[j] = staff.Possition;
+                j = j + 1;
+            }
+
+            var distinctArray = possition.Distinct().ToArray();
+            ViewBag.possitiondetails = distinctArray;
+            return View();
+        }
+
+        public ActionResult Get_Staff1(string possiton_det)
+        {
+            List<Staff> staff = companycontext.Staffs.Where(x => x.Possition == possiton_det).ToList();
+            return View(staff);
         }
     }
 }

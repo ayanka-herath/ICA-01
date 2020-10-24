@@ -12,14 +12,17 @@ namespace ICA_01_2015ICT36.Models
     {
         [Key]
         public String StaffNo { get; set; }
+        [Display(Name ="Last Name")]
         public String Lname { get; set; }
+        [Display(Name = "First Name")]
         public String Fname { get; set; }
         public String Possition { get; set; }
+        [DataType(DataType.Date)]
         public DateTime DOB { get; set; }
         public int Salary { get; set; }
 
         [ForeignKey("Branch_tbl")]
-        [Display(Name ="BranchNo")]
+        [Display(Name ="Branch No")]
         public String Branchno_Ref { get; set; }
         public Branch Branch_tbl { get; set; }
         public List<Rent> Rents { get; set; }

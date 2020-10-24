@@ -13,8 +13,11 @@ namespace ICA_01_2015ICT36.Models
         
         [Key]
         public String OwnerNo { get; set; }
+        [Display(Name = "First Name")]
         public String Fname { get; set; }
+        [Display(Name = "Last Name")]
         public String Lname { get; set; }
+        [DataType(DataType.MultilineText)]
         public String Address { get; set; }
         public String TelNo { get; set; }
         public List<Rent> Rents { get; set; }

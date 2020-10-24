@@ -5,14 +5,14 @@
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<ICA_01_2015ICT36.Models.CompanyContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<ICA_01_2015ICT36.Models.companycontext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(ICA_01_2015ICT36.Models.CompanyContext context)
+        protected override void Seed(ICA_01_2015ICT36.Models.companycontext context)
         {
             //  This method will be called after migrating to the latest version.
 

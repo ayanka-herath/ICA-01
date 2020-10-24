@@ -149,6 +149,22 @@
     <Compile Include="Migrations\202010170506046_company.Designer.cs">
       <DependentUpon>202010170506046_company.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202010210643217_updatestaff.cs" />
+    <Compile Include="Migrations\202010210643217_updatestaff.Designer.cs">
+      <DependentUpon>202010210643217_updatestaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202010210650464_updatedname.cs" />
+    <Compile Include="Migrations\202010210650464_updatedname.Designer.cs">
+      <DependentUpon>202010210650464_updatedname.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202010210655077_updated DOB.cs" />
+    <Compile Include="Migrations\202010210655077_updated DOB.Designer.cs">
+      <DependentUpon>202010210655077_updated DOB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202010210705112_updatenamestaff.cs" />
+    <Compile Include="Migrations\202010210705112_updatenamestaff.Designer.cs">
+      <DependentUpon>202010210705112_updatenamestaff.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Branch.cs" />
     <Compile Include="Models\CompanyContext.cs" />
@@ -183,6 +199,10 @@
     <Content Include="Views\Rent\Details.cshtml" />
     <Content Include="Views\Rent\Edit.cshtml" />
     <Content Include="Views\Rent\Delete.cshtml" />
+    <Content Include="Views\Rent\Get_City.cshtml" />
+    <Content Include="Views\Rent\Get_City1.cshtml" />
+    <Content Include="Views\Staff\Get_Staff.cshtml" />
+    <Content Include="Views\Staff\Get_Staff1.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -196,6 +216,18 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202010170506046_company.resx">
       <DependentUpon>202010170506046_company.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010210643217_updatestaff.resx">
+      <DependentUpon>202010210643217_updatestaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010210650464_updatedname.resx">
+      <DependentUpon>202010210650464_updatedname.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010210655077_updated DOB.resx">
+      <DependentUpon>202010210655077_updated DOB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010210705112_updatenamestaff.resx">
+      <DependentUpon>202010210705112_updatenamestaff.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

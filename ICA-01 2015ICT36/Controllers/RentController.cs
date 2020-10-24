@@ -10,7 +10,7 @@ namespace ICA_01_2015ICT36.Controllers
     public class RentController : Controller
     {
         // GET: Rent
-        private CompanyContext companycontext = new CompanyContext();
+        private companycontext companycontext = new companycontext();
         public ActionResult Index()
         {
             List<Rent> Allrents = companycontext.Rents.ToList();
@@ -78,5 +78,37 @@ namespace ICA_01_2015ICT36.Controllers
             companycontext.SaveChanges();
             return RedirectToAction("Index");
         }
+
+        public ActionResult Get_City()
+        {
+            var AllCity = companycontext.Rents.ToList();
+
+            int i = 0;
+            int j = 0;
+
+            foreach (Rent rents in AllCity)
+            {
+                i = i + 1;
+            }
+
+            string[] build = new string[i];
+            foreach (Rent rents in AllCity)
+            {
+                build[j] = rents.City;
+                j = j + 1;
+            }
+
+            var distinctArray = build.Distinct().ToArray();
+            ViewBag.citydetails = distinctArray;
+            return View();
+        }
+
+        public ActionResult Get_City1(string city_id)
+        {
+            List<Rent> rents = companycontext.Rents.Where(x => x.City == city_id).ToList();
+            return View(rents);
+        }
     }
+
+    
 }

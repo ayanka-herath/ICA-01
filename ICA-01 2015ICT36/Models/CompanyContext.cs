@@ -6,7 +6,7 @@ using System.Web;
 
 namespace ICA_01_2015ICT36.Models
 {
-    public class CompanyContext:DbContext
+    public class companycontext:DbContext
     {
         public DbSet<Branch> Branches { get; set; }
         public DbSet<Staff> Staffs { get; set; }

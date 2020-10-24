@@ -10,7 +10,7 @@ namespace ICA_01_2015ICT36.Controllers
     public class HomeController : Controller
     {
         // GET: Home
-        private CompanyContext companycontext = new CompanyContext();
+        private companycontext companycontext = new companycontext();
         public ActionResult Index()
         {
             List<Branch> AllBranches = companycontext.Branches.ToList();

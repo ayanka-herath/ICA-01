@@ -1,0 +1,26 @@
+﻿@model IEnumerable<ICA_01_2015ICT36.Models.Rent>
+@using ICA_01_2015ICT36.Models;
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Get_City</title>
+</head>
+<body>
+    <div> 
+        <h1>City Names</h1>
+        @{
+            foreach (string i in ViewBag.citydetails)
+            {
+            <h2>@Html.ActionLink(i, "Get_City1", new { city_id = i })</h2>
+            }
+        }
+           
+    </div>
+</body>
+</html>
