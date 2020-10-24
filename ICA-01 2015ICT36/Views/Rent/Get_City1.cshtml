@@ -18,13 +18,13 @@
     <table class="table">
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Branch_tbl.BranchNo)
+                @Html.DisplayNameFor(model => model.BranchNo_Ref)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Owner_tbl.Fname)
+                @Html.DisplayNameFor(model => model.Owner_Ref)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Staff_tbl.Lname)
+                @Html.DisplayNameFor(model => model.StaffNo_Ref)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.City)
@@ -47,13 +47,13 @@
     @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Branch_tbl.BranchNo)
+                @Html.DisplayFor(modelItem => item.BranchNo_Ref)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Owner_tbl.Fname)
+                @Html.DisplayFor(modelItem => item.Owner_Ref)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Staff_tbl.Lname)
+                @Html.DisplayFor(modelItem => item.StaffNo_Ref)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.City)
@@ -79,5 +79,8 @@
     }
     
     </table>
+   <p>
+       @Html.ActionLink("Back", "Get_City")
+    </p>
 </body>
 </html>

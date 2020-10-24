@@ -1,0 +1,26 @@
+﻿@model IEnumerable<ICA_01_2015ICT36.Models.Branch>
+@using ICA_01_2015ICT36.Models;
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>NoofBuildings</title>
+</head>
+<body>
+    <div> 
+        <h1>Branches Id</h1>
+        @{
+            foreach (string i in ViewBag.buildingsdetails)
+            {
+                <h2>@Html.ActionLink(i, "NoofBuildings1", new { building_id = i })</h2>
+            }
+        }
+    </div>
+</body>
+</html>

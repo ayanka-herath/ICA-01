@@ -1,0 +1,23 @@
+﻿@model ICA_01_2015ICT36.Models.Rent
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>NoofBuildings1</title>
+</head>
+<body>
+    <div> 
+        <h2>No of Buildings: @ViewBag.noofbuildings</h2>
+        <p>
+            @Html.ActionLink("Back", "NoofBuildings")
+            
+        </p>
+    </div>
+</body>
+</html>

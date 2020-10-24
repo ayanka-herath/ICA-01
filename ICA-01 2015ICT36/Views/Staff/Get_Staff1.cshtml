@@ -18,7 +18,7 @@
     <table class="table">
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Branch_tbl.Street)
+                @Html.DisplayNameFor(model => model.Branchno_Ref)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Lname)
@@ -41,7 +41,7 @@
     @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Branch_tbl.BranchNo)
+                @Html.DisplayFor(modelItem => item.Branchno_Ref)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Lname)
@@ -67,5 +67,8 @@
     }
     
     </table>
+    <p>
+        @Html.ActionLink("Back", "Get_Staff")
+    </p>
 </body>
 </html>

@@ -65,5 +65,7 @@ namespace ICA_01_2015ICT36.Controllers
             companycontext.SaveChanges();
             return RedirectToAction("Index");
         }
+
+        
     }
 }

@@ -203,6 +203,8 @@
     <Content Include="Views\Rent\Get_City1.cshtml" />
     <Content Include="Views\Staff\Get_Staff.cshtml" />
     <Content Include="Views\Staff\Get_Staff1.cshtml" />
+    <Content Include="Views\Rent\NoofBuildings.cshtml" />
+    <Content Include="Views\Rent\NoofBuildings1.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

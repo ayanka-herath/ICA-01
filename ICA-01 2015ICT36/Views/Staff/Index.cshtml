@@ -33,6 +33,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.Salary)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Branchno_Ref)
+            </th>
             <th></th>
         </tr>
     
@@ -53,6 +56,9 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Salary)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Branchno_Ref)
             </td>
             <td>
                 @Html.ActionLink("Edit", "Edit", new { id=item.StaffNo }) |

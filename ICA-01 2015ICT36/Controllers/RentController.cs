@@ -108,6 +108,35 @@ namespace ICA_01_2015ICT36.Controllers
             List<Rent> rents = companycontext.Rents.Where(x => x.City == city_id).ToList();
             return View(rents);
         }
+        public ActionResult NoofBuildings()
+        {
+            var Allbulilding = companycontext.Rents.ToList();
+
+            int i = 0;
+            int j = 0;
+
+            foreach (Rent rents in Allbulilding)
+            {
+                i = i + 1;
+            }
+
+            string[] building = new string[i];
+            foreach (Rent rents in Allbulilding)
+            {
+                building[j] = rents.BranchNo_Ref;
+                j = j + 1;
+            }
+
+            var distinctArray = building.Distinct().ToArray();
+            ViewBag.buildingsdetails = distinctArray;
+            return View();
+        }
+        public ActionResult NoofBuildings1(string building_id)
+        {
+            var rents = companycontext.Rents.Where(x => x.BranchNo_Ref == building_id).ToList().Count();
+            ViewBag.noofbuildings=rents;
+            return View();
+        }
     }
 
     
